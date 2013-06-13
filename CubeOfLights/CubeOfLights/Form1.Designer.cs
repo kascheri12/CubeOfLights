@@ -168,7 +168,18 @@
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.lEDsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.makeAllRandomToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.solidColorsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.allLevelsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.redToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.greenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.blueToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.currentLevelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.redToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.greenToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.blueToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.button1 = new System.Windows.Forms.Button();
+            this.whiteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.whiteToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -1922,7 +1933,8 @@
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem1,
-            this.lEDsToolStripMenuItem});
+            this.lEDsToolStripMenuItem,
+            this.solidColorsToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(623, 24);
@@ -1946,9 +1958,80 @@
             // makeAllRandomToolStripMenuItem
             // 
             this.makeAllRandomToolStripMenuItem.Name = "makeAllRandomToolStripMenuItem";
-            this.makeAllRandomToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.makeAllRandomToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.makeAllRandomToolStripMenuItem.Text = "All Random";
             this.makeAllRandomToolStripMenuItem.Click += new System.EventHandler(this.makeAllRandomToolStripMenuItem_Click);
+            // 
+            // solidColorsToolStripMenuItem
+            // 
+            this.solidColorsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.allLevelsToolStripMenuItem,
+            this.currentLevelToolStripMenuItem});
+            this.solidColorsToolStripMenuItem.Name = "solidColorsToolStripMenuItem";
+            this.solidColorsToolStripMenuItem.Size = new System.Drawing.Size(82, 20);
+            this.solidColorsToolStripMenuItem.Text = "Solid Colors";
+            // 
+            // allLevelsToolStripMenuItem
+            // 
+            this.allLevelsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.redToolStripMenuItem,
+            this.greenToolStripMenuItem,
+            this.blueToolStripMenuItem,
+            this.whiteToolStripMenuItem});
+            this.allLevelsToolStripMenuItem.Name = "allLevelsToolStripMenuItem";
+            this.allLevelsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.allLevelsToolStripMenuItem.Text = "All Levels";
+            // 
+            // redToolStripMenuItem
+            // 
+            this.redToolStripMenuItem.Name = "redToolStripMenuItem";
+            this.redToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.redToolStripMenuItem.Text = "Red";
+            this.redToolStripMenuItem.Click += new System.EventHandler(this.redToolStripMenuItem_Click);
+            // 
+            // greenToolStripMenuItem
+            // 
+            this.greenToolStripMenuItem.Name = "greenToolStripMenuItem";
+            this.greenToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.greenToolStripMenuItem.Text = "Green";
+            this.greenToolStripMenuItem.Click += new System.EventHandler(this.greenToolStripMenuItem_Click);
+            // 
+            // blueToolStripMenuItem
+            // 
+            this.blueToolStripMenuItem.Name = "blueToolStripMenuItem";
+            this.blueToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.blueToolStripMenuItem.Text = "Blue";
+            this.blueToolStripMenuItem.Click += new System.EventHandler(this.blueToolStripMenuItem_Click);
+            // 
+            // currentLevelToolStripMenuItem
+            // 
+            this.currentLevelToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.redToolStripMenuItem1,
+            this.greenToolStripMenuItem1,
+            this.blueToolStripMenuItem1,
+            this.whiteToolStripMenuItem1});
+            this.currentLevelToolStripMenuItem.Name = "currentLevelToolStripMenuItem";
+            this.currentLevelToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.currentLevelToolStripMenuItem.Text = "Current Level";
+            // 
+            // redToolStripMenuItem1
+            // 
+            this.redToolStripMenuItem1.Name = "redToolStripMenuItem1";
+            this.redToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.redToolStripMenuItem1.Text = "Red";
+            this.redToolStripMenuItem1.Click += new System.EventHandler(this.redToolStripMenuItem1_Click);
+            // 
+            // greenToolStripMenuItem1
+            // 
+            this.greenToolStripMenuItem1.Name = "greenToolStripMenuItem1";
+            this.greenToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.greenToolStripMenuItem1.Text = "Green";
+            // 
+            // blueToolStripMenuItem1
+            // 
+            this.blueToolStripMenuItem1.Name = "blueToolStripMenuItem1";
+            this.blueToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.blueToolStripMenuItem1.Text = "Blue";
             // 
             // button1
             // 
@@ -1958,6 +2041,19 @@
             this.button1.TabIndex = 2;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
+            // 
+            // whiteToolStripMenuItem
+            // 
+            this.whiteToolStripMenuItem.Name = "whiteToolStripMenuItem";
+            this.whiteToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.whiteToolStripMenuItem.Text = "White";
+            this.whiteToolStripMenuItem.Click += new System.EventHandler(this.whiteToolStripMenuItem_Click);
+            // 
+            // whiteToolStripMenuItem1
+            // 
+            this.whiteToolStripMenuItem1.Name = "whiteToolStripMenuItem1";
+            this.whiteToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.whiteToolStripMenuItem1.Text = "White";
             // 
             // Form1
             // 
@@ -1992,7 +2088,6 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem lEDsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem makeAllRandomToolStripMenuItem;
-        private CustomColorPanel customButtonLED1;
         private CustomLEDButton customLEDButton1;
         private CustomColorPanel customColorPanel1;
         private CustomLEDButton customLEDButton25;
@@ -2127,6 +2222,17 @@
         private CustomLEDButton customLEDButton123;
         private CustomLEDButton customLEDButton124;
         private CustomLEDButton customLEDButton125;
+        private System.Windows.Forms.ToolStripMenuItem solidColorsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem allLevelsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem redToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem greenToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem blueToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem currentLevelToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem redToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem greenToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem blueToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem whiteToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem whiteToolStripMenuItem1;
     }
 }
 

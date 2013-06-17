@@ -843,6 +843,56 @@ namespace CubeOfLights
             }
         }
 
+        private void redToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            for (var i = 0; i < 25; i++)
+            {
+                CustomLEDButton button = ListLEDButtons[i];
+                button.Red = 255;
+                button.Green = 0;
+                button.Blue = 0;
+                button.BackColor = Color.FromArgb(255, button.Red, button.Green, button.Blue);
+            }
+        }
+
+        private void greenToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            for (var i = 0; i < 25; i++)
+            {
+                CustomLEDButton button = ListLEDButtons[i];
+                button.Red = 0;
+                button.Green = 255;
+                button.Blue = 0;
+                button.BackColor = Color.FromArgb(255, button.Red, button.Green, button.Blue);
+            }
+
+        }
+
+        private void blueToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            for (var i = 0; i < 25; i++)
+            {
+                CustomLEDButton button = ListLEDButtons[i];
+                button.Red = 0;
+                button.Green = 0;
+                button.Blue = 255;
+                button.BackColor = Color.FromArgb(255, button.Red, button.Green, button.Blue);
+            }
+
+        }
+
+        private void redToolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            for (var i = 0; i < 5; i++)
+            {
+                CustomLEDButton button = ListLEDButtons[i];
+                button.Red = 255;
+                button.Green = 0;
+                button.Blue = 0;
+                button.BackColor = Color.FromArgb(255, button.Red, button.Green, button.Blue);
+            }
+        }
+
 
 
 

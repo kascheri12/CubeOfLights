@@ -30,6 +30,63 @@
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.lEDsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.makeAllRandomToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.solidColorsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.allLevelsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.redToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.greenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.blueToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.whiteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.currentLevelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.redToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.greenToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.blueToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.whiteToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.levelsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.allToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.redToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.greenToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.blueToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.rowToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.redToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.greenToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.blueToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem8 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem9 = new System.Windows.Forms.ToolStripMenuItem();
+            this.columnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.L1C1ToolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.L1C2ToolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.L1C3ToolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.L1C4ToolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.L1C5ToolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem6 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem7 = new System.Windows.Forms.ToolStripMenuItem();
+            this.button1 = new System.Windows.Forms.Button();
+            this.redToolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.greenToolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.blueToolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.redToolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
+            this.greenToolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
+            this.blueToolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
+            this.redToolStripMenuItem6 = new System.Windows.Forms.ToolStripMenuItem();
+            this.greenToolStripMenuItem6 = new System.Windows.Forms.ToolStripMenuItem();
+            this.blueToolStripMenuItem6 = new System.Windows.Forms.ToolStripMenuItem();
+            this.redToolStripMenuItem7 = new System.Windows.Forms.ToolStripMenuItem();
+            this.greenToolStripMenuItem7 = new System.Windows.Forms.ToolStripMenuItem();
+            this.blueToolStripMenuItem7 = new System.Windows.Forms.ToolStripMenuItem();
+            this.redToolStripMenuItem8 = new System.Windows.Forms.ToolStripMenuItem();
+            this.greenToolStripMenuItem8 = new System.Windows.Forms.ToolStripMenuItem();
+            this.blueToolStripMenuItem8 = new System.Windows.Forms.ToolStripMenuItem();
             this.customLEDButton25 = new CubeOfLights.CustomLEDButton();
             this.customLEDButton24 = new CubeOfLights.CustomLEDButton();
             this.customLEDButton23 = new CubeOfLights.CustomLEDButton();
@@ -56,7 +113,6 @@
             this.customLEDButton2 = new CubeOfLights.CustomLEDButton();
             this.customColorPanel1 = new CubeOfLights.CustomColorPanel();
             this.customLEDButton1 = new CubeOfLights.CustomLEDButton();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.customColorPanel2 = new CubeOfLights.CustomColorPanel();
             this.customLEDButton26 = new CubeOfLights.CustomLEDButton();
             this.customLEDButton27 = new CubeOfLights.CustomLEDButton();
@@ -83,7 +139,6 @@
             this.customLEDButton48 = new CubeOfLights.CustomLEDButton();
             this.customLEDButton49 = new CubeOfLights.CustomLEDButton();
             this.customLEDButton50 = new CubeOfLights.CustomLEDButton();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
             this.customColorPanel3 = new CubeOfLights.CustomColorPanel();
             this.customLEDButton51 = new CubeOfLights.CustomLEDButton();
             this.customLEDButton52 = new CubeOfLights.CustomLEDButton();
@@ -110,7 +165,6 @@
             this.customLEDButton73 = new CubeOfLights.CustomLEDButton();
             this.customLEDButton74 = new CubeOfLights.CustomLEDButton();
             this.customLEDButton75 = new CubeOfLights.CustomLEDButton();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
             this.customColorPanel4 = new CubeOfLights.CustomColorPanel();
             this.customLEDButton76 = new CubeOfLights.CustomLEDButton();
             this.customLEDButton77 = new CubeOfLights.CustomLEDButton();
@@ -137,7 +191,6 @@
             this.customLEDButton98 = new CubeOfLights.CustomLEDButton();
             this.customLEDButton99 = new CubeOfLights.CustomLEDButton();
             this.customLEDButton100 = new CubeOfLights.CustomLEDButton();
-            this.tabPage5 = new System.Windows.Forms.TabPage();
             this.customColorPanel5 = new CubeOfLights.CustomColorPanel();
             this.customLEDButton101 = new CubeOfLights.CustomLEDButton();
             this.customLEDButton102 = new CubeOfLights.CustomLEDButton();
@@ -164,44 +217,6 @@
             this.customLEDButton123 = new CubeOfLights.CustomLEDButton();
             this.customLEDButton124 = new CubeOfLights.CustomLEDButton();
             this.customLEDButton125 = new CubeOfLights.CustomLEDButton();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.lEDsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.makeAllRandomToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.solidColorsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.allLevelsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.redToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.greenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.blueToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.whiteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.currentLevelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.redToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.greenToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.blueToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.whiteToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.button1 = new System.Windows.Forms.Button();
-            this.levelsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem6 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem7 = new System.Windows.Forms.ToolStripMenuItem();
-            this.allToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.rowToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.columnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.redToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.greenToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.blueToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.redToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.greenToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.blueToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.redToolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
-            this.greenToolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
-            this.blueToolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem8 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem9 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem10 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem11 = new System.Windows.Forms.ToolStripMenuItem();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -259,6 +274,546 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Level 1";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Controls.Add(this.customColorPanel2);
+            this.tabPage2.Controls.Add(this.customLEDButton26);
+            this.tabPage2.Controls.Add(this.customLEDButton27);
+            this.tabPage2.Controls.Add(this.customLEDButton28);
+            this.tabPage2.Controls.Add(this.customLEDButton29);
+            this.tabPage2.Controls.Add(this.customLEDButton30);
+            this.tabPage2.Controls.Add(this.customLEDButton31);
+            this.tabPage2.Controls.Add(this.customLEDButton32);
+            this.tabPage2.Controls.Add(this.customLEDButton33);
+            this.tabPage2.Controls.Add(this.customLEDButton34);
+            this.tabPage2.Controls.Add(this.customLEDButton35);
+            this.tabPage2.Controls.Add(this.customLEDButton36);
+            this.tabPage2.Controls.Add(this.customLEDButton37);
+            this.tabPage2.Controls.Add(this.customLEDButton38);
+            this.tabPage2.Controls.Add(this.customLEDButton39);
+            this.tabPage2.Controls.Add(this.customLEDButton40);
+            this.tabPage2.Controls.Add(this.customLEDButton41);
+            this.tabPage2.Controls.Add(this.customLEDButton42);
+            this.tabPage2.Controls.Add(this.customLEDButton43);
+            this.tabPage2.Controls.Add(this.customLEDButton44);
+            this.tabPage2.Controls.Add(this.customLEDButton45);
+            this.tabPage2.Controls.Add(this.customLEDButton46);
+            this.tabPage2.Controls.Add(this.customLEDButton47);
+            this.tabPage2.Controls.Add(this.customLEDButton48);
+            this.tabPage2.Controls.Add(this.customLEDButton49);
+            this.tabPage2.Controls.Add(this.customLEDButton50);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(594, 274);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Level 2";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Controls.Add(this.customColorPanel3);
+            this.tabPage3.Controls.Add(this.customLEDButton51);
+            this.tabPage3.Controls.Add(this.customLEDButton52);
+            this.tabPage3.Controls.Add(this.customLEDButton53);
+            this.tabPage3.Controls.Add(this.customLEDButton54);
+            this.tabPage3.Controls.Add(this.customLEDButton55);
+            this.tabPage3.Controls.Add(this.customLEDButton56);
+            this.tabPage3.Controls.Add(this.customLEDButton57);
+            this.tabPage3.Controls.Add(this.customLEDButton58);
+            this.tabPage3.Controls.Add(this.customLEDButton59);
+            this.tabPage3.Controls.Add(this.customLEDButton60);
+            this.tabPage3.Controls.Add(this.customLEDButton61);
+            this.tabPage3.Controls.Add(this.customLEDButton62);
+            this.tabPage3.Controls.Add(this.customLEDButton63);
+            this.tabPage3.Controls.Add(this.customLEDButton64);
+            this.tabPage3.Controls.Add(this.customLEDButton65);
+            this.tabPage3.Controls.Add(this.customLEDButton66);
+            this.tabPage3.Controls.Add(this.customLEDButton67);
+            this.tabPage3.Controls.Add(this.customLEDButton68);
+            this.tabPage3.Controls.Add(this.customLEDButton69);
+            this.tabPage3.Controls.Add(this.customLEDButton70);
+            this.tabPage3.Controls.Add(this.customLEDButton71);
+            this.tabPage3.Controls.Add(this.customLEDButton72);
+            this.tabPage3.Controls.Add(this.customLEDButton73);
+            this.tabPage3.Controls.Add(this.customLEDButton74);
+            this.tabPage3.Controls.Add(this.customLEDButton75);
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Size = new System.Drawing.Size(594, 274);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Level 3";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // tabPage4
+            // 
+            this.tabPage4.Controls.Add(this.customColorPanel4);
+            this.tabPage4.Controls.Add(this.customLEDButton76);
+            this.tabPage4.Controls.Add(this.customLEDButton77);
+            this.tabPage4.Controls.Add(this.customLEDButton78);
+            this.tabPage4.Controls.Add(this.customLEDButton79);
+            this.tabPage4.Controls.Add(this.customLEDButton80);
+            this.tabPage4.Controls.Add(this.customLEDButton81);
+            this.tabPage4.Controls.Add(this.customLEDButton82);
+            this.tabPage4.Controls.Add(this.customLEDButton83);
+            this.tabPage4.Controls.Add(this.customLEDButton84);
+            this.tabPage4.Controls.Add(this.customLEDButton85);
+            this.tabPage4.Controls.Add(this.customLEDButton86);
+            this.tabPage4.Controls.Add(this.customLEDButton87);
+            this.tabPage4.Controls.Add(this.customLEDButton88);
+            this.tabPage4.Controls.Add(this.customLEDButton89);
+            this.tabPage4.Controls.Add(this.customLEDButton90);
+            this.tabPage4.Controls.Add(this.customLEDButton91);
+            this.tabPage4.Controls.Add(this.customLEDButton92);
+            this.tabPage4.Controls.Add(this.customLEDButton93);
+            this.tabPage4.Controls.Add(this.customLEDButton94);
+            this.tabPage4.Controls.Add(this.customLEDButton95);
+            this.tabPage4.Controls.Add(this.customLEDButton96);
+            this.tabPage4.Controls.Add(this.customLEDButton97);
+            this.tabPage4.Controls.Add(this.customLEDButton98);
+            this.tabPage4.Controls.Add(this.customLEDButton99);
+            this.tabPage4.Controls.Add(this.customLEDButton100);
+            this.tabPage4.Location = new System.Drawing.Point(4, 22);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Size = new System.Drawing.Size(594, 274);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "Level 4";
+            this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // tabPage5
+            // 
+            this.tabPage5.Controls.Add(this.customColorPanel5);
+            this.tabPage5.Controls.Add(this.customLEDButton101);
+            this.tabPage5.Controls.Add(this.customLEDButton102);
+            this.tabPage5.Controls.Add(this.customLEDButton103);
+            this.tabPage5.Controls.Add(this.customLEDButton104);
+            this.tabPage5.Controls.Add(this.customLEDButton105);
+            this.tabPage5.Controls.Add(this.customLEDButton106);
+            this.tabPage5.Controls.Add(this.customLEDButton107);
+            this.tabPage5.Controls.Add(this.customLEDButton108);
+            this.tabPage5.Controls.Add(this.customLEDButton109);
+            this.tabPage5.Controls.Add(this.customLEDButton110);
+            this.tabPage5.Controls.Add(this.customLEDButton111);
+            this.tabPage5.Controls.Add(this.customLEDButton112);
+            this.tabPage5.Controls.Add(this.customLEDButton113);
+            this.tabPage5.Controls.Add(this.customLEDButton114);
+            this.tabPage5.Controls.Add(this.customLEDButton115);
+            this.tabPage5.Controls.Add(this.customLEDButton116);
+            this.tabPage5.Controls.Add(this.customLEDButton117);
+            this.tabPage5.Controls.Add(this.customLEDButton118);
+            this.tabPage5.Controls.Add(this.customLEDButton119);
+            this.tabPage5.Controls.Add(this.customLEDButton120);
+            this.tabPage5.Controls.Add(this.customLEDButton121);
+            this.tabPage5.Controls.Add(this.customLEDButton122);
+            this.tabPage5.Controls.Add(this.customLEDButton123);
+            this.tabPage5.Controls.Add(this.customLEDButton124);
+            this.tabPage5.Controls.Add(this.customLEDButton125);
+            this.tabPage5.Location = new System.Drawing.Point(4, 22);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Size = new System.Drawing.Size(594, 274);
+            this.tabPage5.TabIndex = 4;
+            this.tabPage5.Text = "Level 5";
+            this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem1,
+            this.lEDsToolStripMenuItem,
+            this.solidColorsToolStripMenuItem,
+            this.levelsToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(623, 24);
+            this.menuStrip1.TabIndex = 1;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(37, 20);
+            this.toolStripMenuItem1.Text = "File";
+            // 
+            // lEDsToolStripMenuItem
+            // 
+            this.lEDsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.makeAllRandomToolStripMenuItem});
+            this.lEDsToolStripMenuItem.Name = "lEDsToolStripMenuItem";
+            this.lEDsToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.lEDsToolStripMenuItem.Text = "LEDs";
+            // 
+            // makeAllRandomToolStripMenuItem
+            // 
+            this.makeAllRandomToolStripMenuItem.Name = "makeAllRandomToolStripMenuItem";
+            this.makeAllRandomToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.makeAllRandomToolStripMenuItem.Text = "All Random";
+            this.makeAllRandomToolStripMenuItem.Click += new System.EventHandler(this.makeAllRandomToolStripMenuItem_Click);
+            // 
+            // solidColorsToolStripMenuItem
+            // 
+            this.solidColorsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.allLevelsToolStripMenuItem,
+            this.currentLevelToolStripMenuItem});
+            this.solidColorsToolStripMenuItem.Name = "solidColorsToolStripMenuItem";
+            this.solidColorsToolStripMenuItem.Size = new System.Drawing.Size(82, 20);
+            this.solidColorsToolStripMenuItem.Text = "Solid Colors";
+            // 
+            // allLevelsToolStripMenuItem
+            // 
+            this.allLevelsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.redToolStripMenuItem,
+            this.greenToolStripMenuItem,
+            this.blueToolStripMenuItem,
+            this.whiteToolStripMenuItem});
+            this.allLevelsToolStripMenuItem.Name = "allLevelsToolStripMenuItem";
+            this.allLevelsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.allLevelsToolStripMenuItem.Text = "All Levels";
+            // 
+            // redToolStripMenuItem
+            // 
+            this.redToolStripMenuItem.Name = "redToolStripMenuItem";
+            this.redToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.redToolStripMenuItem.Text = "Red";
+            this.redToolStripMenuItem.Click += new System.EventHandler(this.redToolStripMenuItem_Click);
+            // 
+            // greenToolStripMenuItem
+            // 
+            this.greenToolStripMenuItem.Name = "greenToolStripMenuItem";
+            this.greenToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.greenToolStripMenuItem.Text = "Green";
+            this.greenToolStripMenuItem.Click += new System.EventHandler(this.greenToolStripMenuItem_Click);
+            // 
+            // blueToolStripMenuItem
+            // 
+            this.blueToolStripMenuItem.Name = "blueToolStripMenuItem";
+            this.blueToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.blueToolStripMenuItem.Text = "Blue";
+            this.blueToolStripMenuItem.Click += new System.EventHandler(this.blueToolStripMenuItem_Click);
+            // 
+            // whiteToolStripMenuItem
+            // 
+            this.whiteToolStripMenuItem.Name = "whiteToolStripMenuItem";
+            this.whiteToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.whiteToolStripMenuItem.Text = "White";
+            this.whiteToolStripMenuItem.Click += new System.EventHandler(this.whiteToolStripMenuItem_Click);
+            // 
+            // currentLevelToolStripMenuItem
+            // 
+            this.currentLevelToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.redToolStripMenuItem1,
+            this.greenToolStripMenuItem1,
+            this.blueToolStripMenuItem1,
+            this.whiteToolStripMenuItem1});
+            this.currentLevelToolStripMenuItem.Name = "currentLevelToolStripMenuItem";
+            this.currentLevelToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.currentLevelToolStripMenuItem.Text = "Current Level";
+            // 
+            // redToolStripMenuItem1
+            // 
+            this.redToolStripMenuItem1.Name = "redToolStripMenuItem1";
+            this.redToolStripMenuItem1.Size = new System.Drawing.Size(105, 22);
+            this.redToolStripMenuItem1.Text = "Red";
+            this.redToolStripMenuItem1.Click += new System.EventHandler(this.redToolStripMenuItem1_Click);
+            // 
+            // greenToolStripMenuItem1
+            // 
+            this.greenToolStripMenuItem1.Name = "greenToolStripMenuItem1";
+            this.greenToolStripMenuItem1.Size = new System.Drawing.Size(105, 22);
+            this.greenToolStripMenuItem1.Text = "Green";
+            // 
+            // blueToolStripMenuItem1
+            // 
+            this.blueToolStripMenuItem1.Name = "blueToolStripMenuItem1";
+            this.blueToolStripMenuItem1.Size = new System.Drawing.Size(105, 22);
+            this.blueToolStripMenuItem1.Text = "Blue";
+            // 
+            // whiteToolStripMenuItem1
+            // 
+            this.whiteToolStripMenuItem1.Name = "whiteToolStripMenuItem1";
+            this.whiteToolStripMenuItem1.Size = new System.Drawing.Size(105, 22);
+            this.whiteToolStripMenuItem1.Text = "White";
+            // 
+            // levelsToolStripMenuItem
+            // 
+            this.levelsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem3,
+            this.toolStripMenuItem4,
+            this.toolStripMenuItem5,
+            this.toolStripMenuItem6,
+            this.toolStripMenuItem7});
+            this.levelsToolStripMenuItem.Name = "levelsToolStripMenuItem";
+            this.levelsToolStripMenuItem.Size = new System.Drawing.Size(51, 20);
+            this.levelsToolStripMenuItem.Text = "Levels";
+            // 
+            // toolStripMenuItem3
+            // 
+            this.toolStripMenuItem3.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.allToolStripMenuItem,
+            this.rowToolStripMenuItem,
+            this.columnToolStripMenuItem});
+            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem3.Text = "1";
+            // 
+            // allToolStripMenuItem
+            // 
+            this.allToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.redToolStripMenuItem2,
+            this.greenToolStripMenuItem2,
+            this.blueToolStripMenuItem2});
+            this.allToolStripMenuItem.Name = "allToolStripMenuItem";
+            this.allToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.allToolStripMenuItem.Text = "All";
+            // 
+            // redToolStripMenuItem2
+            // 
+            this.redToolStripMenuItem2.Name = "redToolStripMenuItem2";
+            this.redToolStripMenuItem2.Size = new System.Drawing.Size(105, 22);
+            this.redToolStripMenuItem2.Text = "Red";
+            this.redToolStripMenuItem2.Click += new System.EventHandler(this.redToolStripMenuItem2_Click);
+            // 
+            // greenToolStripMenuItem2
+            // 
+            this.greenToolStripMenuItem2.Name = "greenToolStripMenuItem2";
+            this.greenToolStripMenuItem2.Size = new System.Drawing.Size(105, 22);
+            this.greenToolStripMenuItem2.Text = "Green";
+            this.greenToolStripMenuItem2.Click += new System.EventHandler(this.greenToolStripMenuItem2_Click);
+            // 
+            // blueToolStripMenuItem2
+            // 
+            this.blueToolStripMenuItem2.Name = "blueToolStripMenuItem2";
+            this.blueToolStripMenuItem2.Size = new System.Drawing.Size(105, 22);
+            this.blueToolStripMenuItem2.Text = "Blue";
+            this.blueToolStripMenuItem2.Click += new System.EventHandler(this.blueToolStripMenuItem2_Click);
+            // 
+            // rowToolStripMenuItem
+            // 
+            this.rowToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.redToolStripMenuItem3,
+            this.greenToolStripMenuItem3,
+            this.blueToolStripMenuItem3,
+            this.toolStripMenuItem8,
+            this.toolStripMenuItem9});
+            this.rowToolStripMenuItem.Name = "rowToolStripMenuItem";
+            this.rowToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.rowToolStripMenuItem.Text = "Row";
+            // 
+            // redToolStripMenuItem3
+            // 
+            this.redToolStripMenuItem3.Name = "redToolStripMenuItem3";
+            this.redToolStripMenuItem3.Size = new System.Drawing.Size(80, 22);
+            this.redToolStripMenuItem3.Text = "1";
+            // 
+            // greenToolStripMenuItem3
+            // 
+            this.greenToolStripMenuItem3.Name = "greenToolStripMenuItem3";
+            this.greenToolStripMenuItem3.Size = new System.Drawing.Size(80, 22);
+            this.greenToolStripMenuItem3.Text = "2";
+            // 
+            // blueToolStripMenuItem3
+            // 
+            this.blueToolStripMenuItem3.Name = "blueToolStripMenuItem3";
+            this.blueToolStripMenuItem3.Size = new System.Drawing.Size(80, 22);
+            this.blueToolStripMenuItem3.Text = "3";
+            // 
+            // toolStripMenuItem8
+            // 
+            this.toolStripMenuItem8.Name = "toolStripMenuItem8";
+            this.toolStripMenuItem8.Size = new System.Drawing.Size(80, 22);
+            this.toolStripMenuItem8.Text = "4";
+            // 
+            // toolStripMenuItem9
+            // 
+            this.toolStripMenuItem9.Name = "toolStripMenuItem9";
+            this.toolStripMenuItem9.Size = new System.Drawing.Size(80, 22);
+            this.toolStripMenuItem9.Text = "5";
+            // 
+            // columnToolStripMenuItem
+            // 
+            this.columnToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.L1C1ToolStripMenuItem4,
+            this.L1C2ToolStripMenuItem4,
+            this.L1C3ToolStripMenuItem4,
+            this.L1C4ToolStripMenuItem4,
+            this.L1C5ToolStripMenuItem4});
+            this.columnToolStripMenuItem.Name = "columnToolStripMenuItem";
+            this.columnToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.columnToolStripMenuItem.Text = "Column";
+            // 
+            // L1C1ToolStripMenuItem4
+            // 
+            this.L1C1ToolStripMenuItem4.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.redToolStripMenuItem4,
+            this.greenToolStripMenuItem4,
+            this.blueToolStripMenuItem4});
+            this.L1C1ToolStripMenuItem4.Name = "L1C1ToolStripMenuItem4";
+            this.L1C1ToolStripMenuItem4.Size = new System.Drawing.Size(152, 22);
+            this.L1C1ToolStripMenuItem4.Text = "1";
+            // 
+            // L1C2ToolStripMenuItem4
+            // 
+            this.L1C2ToolStripMenuItem4.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.redToolStripMenuItem5,
+            this.greenToolStripMenuItem5,
+            this.blueToolStripMenuItem5});
+            this.L1C2ToolStripMenuItem4.Name = "L1C2ToolStripMenuItem4";
+            this.L1C2ToolStripMenuItem4.Size = new System.Drawing.Size(152, 22);
+            this.L1C2ToolStripMenuItem4.Text = "2";
+            // 
+            // L1C3ToolStripMenuItem4
+            // 
+            this.L1C3ToolStripMenuItem4.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.redToolStripMenuItem6,
+            this.greenToolStripMenuItem6,
+            this.blueToolStripMenuItem6});
+            this.L1C3ToolStripMenuItem4.Name = "L1C3ToolStripMenuItem4";
+            this.L1C3ToolStripMenuItem4.Size = new System.Drawing.Size(152, 22);
+            this.L1C3ToolStripMenuItem4.Text = "3";
+            // 
+            // L1C4ToolStripMenuItem4
+            // 
+            this.L1C4ToolStripMenuItem4.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.redToolStripMenuItem7,
+            this.greenToolStripMenuItem7,
+            this.blueToolStripMenuItem7});
+            this.L1C4ToolStripMenuItem4.Name = "L1C4ToolStripMenuItem4";
+            this.L1C4ToolStripMenuItem4.Size = new System.Drawing.Size(152, 22);
+            this.L1C4ToolStripMenuItem4.Text = "4";
+            // 
+            // L1C5ToolStripMenuItem4
+            // 
+            this.L1C5ToolStripMenuItem4.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.redToolStripMenuItem8,
+            this.greenToolStripMenuItem8,
+            this.blueToolStripMenuItem8});
+            this.L1C5ToolStripMenuItem4.Name = "L1C5ToolStripMenuItem4";
+            this.L1C5ToolStripMenuItem4.Size = new System.Drawing.Size(152, 22);
+            this.L1C5ToolStripMenuItem4.Text = "5";
+            // 
+            // toolStripMenuItem4
+            // 
+            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem4.Text = "2";
+            // 
+            // toolStripMenuItem5
+            // 
+            this.toolStripMenuItem5.Name = "toolStripMenuItem5";
+            this.toolStripMenuItem5.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem5.Text = "3";
+            // 
+            // toolStripMenuItem6
+            // 
+            this.toolStripMenuItem6.Name = "toolStripMenuItem6";
+            this.toolStripMenuItem6.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem6.Text = "4";
+            // 
+            // toolStripMenuItem7
+            // 
+            this.toolStripMenuItem7.Name = "toolStripMenuItem7";
+            this.toolStripMenuItem7.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem7.Text = "5";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(496, 336);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(104, 23);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // redToolStripMenuItem4
+            // 
+            this.redToolStripMenuItem4.Name = "redToolStripMenuItem4";
+            this.redToolStripMenuItem4.Size = new System.Drawing.Size(152, 22);
+            this.redToolStripMenuItem4.Text = "Red";
+            this.redToolStripMenuItem4.Click += new System.EventHandler(this.redToolStripMenuItem4_Click);
+            // 
+            // greenToolStripMenuItem4
+            // 
+            this.greenToolStripMenuItem4.Name = "greenToolStripMenuItem4";
+            this.greenToolStripMenuItem4.Size = new System.Drawing.Size(152, 22);
+            this.greenToolStripMenuItem4.Text = "Green";
+            // 
+            // blueToolStripMenuItem4
+            // 
+            this.blueToolStripMenuItem4.Name = "blueToolStripMenuItem4";
+            this.blueToolStripMenuItem4.Size = new System.Drawing.Size(152, 22);
+            this.blueToolStripMenuItem4.Text = "Blue";
+            // 
+            // redToolStripMenuItem5
+            // 
+            this.redToolStripMenuItem5.Name = "redToolStripMenuItem5";
+            this.redToolStripMenuItem5.Size = new System.Drawing.Size(152, 22);
+            this.redToolStripMenuItem5.Text = "Red";
+            // 
+            // greenToolStripMenuItem5
+            // 
+            this.greenToolStripMenuItem5.Name = "greenToolStripMenuItem5";
+            this.greenToolStripMenuItem5.Size = new System.Drawing.Size(152, 22);
+            this.greenToolStripMenuItem5.Text = "Green";
+            // 
+            // blueToolStripMenuItem5
+            // 
+            this.blueToolStripMenuItem5.Name = "blueToolStripMenuItem5";
+            this.blueToolStripMenuItem5.Size = new System.Drawing.Size(152, 22);
+            this.blueToolStripMenuItem5.Text = "Blue";
+            // 
+            // redToolStripMenuItem6
+            // 
+            this.redToolStripMenuItem6.Name = "redToolStripMenuItem6";
+            this.redToolStripMenuItem6.Size = new System.Drawing.Size(105, 22);
+            this.redToolStripMenuItem6.Text = "Red";
+            // 
+            // greenToolStripMenuItem6
+            // 
+            this.greenToolStripMenuItem6.Name = "greenToolStripMenuItem6";
+            this.greenToolStripMenuItem6.Size = new System.Drawing.Size(105, 22);
+            this.greenToolStripMenuItem6.Text = "Green";
+            // 
+            // blueToolStripMenuItem6
+            // 
+            this.blueToolStripMenuItem6.Name = "blueToolStripMenuItem6";
+            this.blueToolStripMenuItem6.Size = new System.Drawing.Size(105, 22);
+            this.blueToolStripMenuItem6.Text = "Blue";
+            // 
+            // redToolStripMenuItem7
+            // 
+            this.redToolStripMenuItem7.Name = "redToolStripMenuItem7";
+            this.redToolStripMenuItem7.Size = new System.Drawing.Size(105, 22);
+            this.redToolStripMenuItem7.Text = "Red";
+            // 
+            // greenToolStripMenuItem7
+            // 
+            this.greenToolStripMenuItem7.Name = "greenToolStripMenuItem7";
+            this.greenToolStripMenuItem7.Size = new System.Drawing.Size(105, 22);
+            this.greenToolStripMenuItem7.Text = "Green";
+            // 
+            // blueToolStripMenuItem7
+            // 
+            this.blueToolStripMenuItem7.Name = "blueToolStripMenuItem7";
+            this.blueToolStripMenuItem7.Size = new System.Drawing.Size(105, 22);
+            this.blueToolStripMenuItem7.Text = "Blue";
+            // 
+            // redToolStripMenuItem8
+            // 
+            this.redToolStripMenuItem8.Name = "redToolStripMenuItem8";
+            this.redToolStripMenuItem8.Size = new System.Drawing.Size(105, 22);
+            this.redToolStripMenuItem8.Text = "Red";
+            // 
+            // greenToolStripMenuItem8
+            // 
+            this.greenToolStripMenuItem8.Name = "greenToolStripMenuItem8";
+            this.greenToolStripMenuItem8.Size = new System.Drawing.Size(105, 22);
+            this.greenToolStripMenuItem8.Text = "Green";
+            // 
+            // blueToolStripMenuItem8
+            // 
+            this.blueToolStripMenuItem8.Name = "blueToolStripMenuItem8";
+            this.blueToolStripMenuItem8.Size = new System.Drawing.Size(105, 22);
+            this.blueToolStripMenuItem8.Text = "Blue";
             // 
             // customLEDButton25
             // 
@@ -570,42 +1125,6 @@
             this.customLEDButton1.TabIndex = 0;
             this.customLEDButton1.Click += new System.EventHandler(this.customLEDButton1_Click);
             // 
-            // tabPage2
-            // 
-            this.tabPage2.Controls.Add(this.customColorPanel2);
-            this.tabPage2.Controls.Add(this.customLEDButton26);
-            this.tabPage2.Controls.Add(this.customLEDButton27);
-            this.tabPage2.Controls.Add(this.customLEDButton28);
-            this.tabPage2.Controls.Add(this.customLEDButton29);
-            this.tabPage2.Controls.Add(this.customLEDButton30);
-            this.tabPage2.Controls.Add(this.customLEDButton31);
-            this.tabPage2.Controls.Add(this.customLEDButton32);
-            this.tabPage2.Controls.Add(this.customLEDButton33);
-            this.tabPage2.Controls.Add(this.customLEDButton34);
-            this.tabPage2.Controls.Add(this.customLEDButton35);
-            this.tabPage2.Controls.Add(this.customLEDButton36);
-            this.tabPage2.Controls.Add(this.customLEDButton37);
-            this.tabPage2.Controls.Add(this.customLEDButton38);
-            this.tabPage2.Controls.Add(this.customLEDButton39);
-            this.tabPage2.Controls.Add(this.customLEDButton40);
-            this.tabPage2.Controls.Add(this.customLEDButton41);
-            this.tabPage2.Controls.Add(this.customLEDButton42);
-            this.tabPage2.Controls.Add(this.customLEDButton43);
-            this.tabPage2.Controls.Add(this.customLEDButton44);
-            this.tabPage2.Controls.Add(this.customLEDButton45);
-            this.tabPage2.Controls.Add(this.customLEDButton46);
-            this.tabPage2.Controls.Add(this.customLEDButton47);
-            this.tabPage2.Controls.Add(this.customLEDButton48);
-            this.tabPage2.Controls.Add(this.customLEDButton49);
-            this.tabPage2.Controls.Add(this.customLEDButton50);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(594, 274);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Level 2";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
             // customColorPanel2
             // 
             this.customColorPanel2.Blue = 0;
@@ -915,41 +1434,6 @@
             this.customLEDButton50.Size = new System.Drawing.Size(29, 28);
             this.customLEDButton50.TabIndex = 26;
             this.customLEDButton50.Click += new System.EventHandler(this.customLEDButton50_Click);
-            // 
-            // tabPage3
-            // 
-            this.tabPage3.Controls.Add(this.customColorPanel3);
-            this.tabPage3.Controls.Add(this.customLEDButton51);
-            this.tabPage3.Controls.Add(this.customLEDButton52);
-            this.tabPage3.Controls.Add(this.customLEDButton53);
-            this.tabPage3.Controls.Add(this.customLEDButton54);
-            this.tabPage3.Controls.Add(this.customLEDButton55);
-            this.tabPage3.Controls.Add(this.customLEDButton56);
-            this.tabPage3.Controls.Add(this.customLEDButton57);
-            this.tabPage3.Controls.Add(this.customLEDButton58);
-            this.tabPage3.Controls.Add(this.customLEDButton59);
-            this.tabPage3.Controls.Add(this.customLEDButton60);
-            this.tabPage3.Controls.Add(this.customLEDButton61);
-            this.tabPage3.Controls.Add(this.customLEDButton62);
-            this.tabPage3.Controls.Add(this.customLEDButton63);
-            this.tabPage3.Controls.Add(this.customLEDButton64);
-            this.tabPage3.Controls.Add(this.customLEDButton65);
-            this.tabPage3.Controls.Add(this.customLEDButton66);
-            this.tabPage3.Controls.Add(this.customLEDButton67);
-            this.tabPage3.Controls.Add(this.customLEDButton68);
-            this.tabPage3.Controls.Add(this.customLEDButton69);
-            this.tabPage3.Controls.Add(this.customLEDButton70);
-            this.tabPage3.Controls.Add(this.customLEDButton71);
-            this.tabPage3.Controls.Add(this.customLEDButton72);
-            this.tabPage3.Controls.Add(this.customLEDButton73);
-            this.tabPage3.Controls.Add(this.customLEDButton74);
-            this.tabPage3.Controls.Add(this.customLEDButton75);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(594, 274);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Level 3";
-            this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // customColorPanel3
             // 
@@ -1261,41 +1745,6 @@
             this.customLEDButton75.TabIndex = 52;
             this.customLEDButton75.Click += new System.EventHandler(this.customLEDButton75_Click);
             // 
-            // tabPage4
-            // 
-            this.tabPage4.Controls.Add(this.customColorPanel4);
-            this.tabPage4.Controls.Add(this.customLEDButton76);
-            this.tabPage4.Controls.Add(this.customLEDButton77);
-            this.tabPage4.Controls.Add(this.customLEDButton78);
-            this.tabPage4.Controls.Add(this.customLEDButton79);
-            this.tabPage4.Controls.Add(this.customLEDButton80);
-            this.tabPage4.Controls.Add(this.customLEDButton81);
-            this.tabPage4.Controls.Add(this.customLEDButton82);
-            this.tabPage4.Controls.Add(this.customLEDButton83);
-            this.tabPage4.Controls.Add(this.customLEDButton84);
-            this.tabPage4.Controls.Add(this.customLEDButton85);
-            this.tabPage4.Controls.Add(this.customLEDButton86);
-            this.tabPage4.Controls.Add(this.customLEDButton87);
-            this.tabPage4.Controls.Add(this.customLEDButton88);
-            this.tabPage4.Controls.Add(this.customLEDButton89);
-            this.tabPage4.Controls.Add(this.customLEDButton90);
-            this.tabPage4.Controls.Add(this.customLEDButton91);
-            this.tabPage4.Controls.Add(this.customLEDButton92);
-            this.tabPage4.Controls.Add(this.customLEDButton93);
-            this.tabPage4.Controls.Add(this.customLEDButton94);
-            this.tabPage4.Controls.Add(this.customLEDButton95);
-            this.tabPage4.Controls.Add(this.customLEDButton96);
-            this.tabPage4.Controls.Add(this.customLEDButton97);
-            this.tabPage4.Controls.Add(this.customLEDButton98);
-            this.tabPage4.Controls.Add(this.customLEDButton99);
-            this.tabPage4.Controls.Add(this.customLEDButton100);
-            this.tabPage4.Location = new System.Drawing.Point(4, 22);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(594, 274);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Level 4";
-            this.tabPage4.UseVisualStyleBackColor = true;
-            // 
             // customColorPanel4
             // 
             this.customColorPanel4.Blue = 0;
@@ -1605,41 +2054,6 @@
             this.customLEDButton100.Size = new System.Drawing.Size(29, 28);
             this.customLEDButton100.TabIndex = 78;
             this.customLEDButton100.Click += new System.EventHandler(this.customLEDButton100_Click);
-            // 
-            // tabPage5
-            // 
-            this.tabPage5.Controls.Add(this.customColorPanel5);
-            this.tabPage5.Controls.Add(this.customLEDButton101);
-            this.tabPage5.Controls.Add(this.customLEDButton102);
-            this.tabPage5.Controls.Add(this.customLEDButton103);
-            this.tabPage5.Controls.Add(this.customLEDButton104);
-            this.tabPage5.Controls.Add(this.customLEDButton105);
-            this.tabPage5.Controls.Add(this.customLEDButton106);
-            this.tabPage5.Controls.Add(this.customLEDButton107);
-            this.tabPage5.Controls.Add(this.customLEDButton108);
-            this.tabPage5.Controls.Add(this.customLEDButton109);
-            this.tabPage5.Controls.Add(this.customLEDButton110);
-            this.tabPage5.Controls.Add(this.customLEDButton111);
-            this.tabPage5.Controls.Add(this.customLEDButton112);
-            this.tabPage5.Controls.Add(this.customLEDButton113);
-            this.tabPage5.Controls.Add(this.customLEDButton114);
-            this.tabPage5.Controls.Add(this.customLEDButton115);
-            this.tabPage5.Controls.Add(this.customLEDButton116);
-            this.tabPage5.Controls.Add(this.customLEDButton117);
-            this.tabPage5.Controls.Add(this.customLEDButton118);
-            this.tabPage5.Controls.Add(this.customLEDButton119);
-            this.tabPage5.Controls.Add(this.customLEDButton120);
-            this.tabPage5.Controls.Add(this.customLEDButton121);
-            this.tabPage5.Controls.Add(this.customLEDButton122);
-            this.tabPage5.Controls.Add(this.customLEDButton123);
-            this.tabPage5.Controls.Add(this.customLEDButton124);
-            this.tabPage5.Controls.Add(this.customLEDButton125);
-            this.tabPage5.Location = new System.Drawing.Point(4, 22);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(594, 274);
-            this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "Level 5";
-            this.tabPage5.UseVisualStyleBackColor = true;
             // 
             // customColorPanel5
             // 
@@ -1951,295 +2365,6 @@
             this.customLEDButton125.TabIndex = 104;
             this.customLEDButton125.Click += new System.EventHandler(this.customLEDButton125_Click);
             // 
-            // menuStrip1
-            // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem1,
-            this.lEDsToolStripMenuItem,
-            this.solidColorsToolStripMenuItem,
-            this.levelsToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(623, 24);
-            this.menuStrip1.TabIndex = 1;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // toolStripMenuItem1
-            // 
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(37, 20);
-            this.toolStripMenuItem1.Text = "File";
-            // 
-            // lEDsToolStripMenuItem
-            // 
-            this.lEDsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.makeAllRandomToolStripMenuItem});
-            this.lEDsToolStripMenuItem.Name = "lEDsToolStripMenuItem";
-            this.lEDsToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
-            this.lEDsToolStripMenuItem.Text = "LEDs";
-            // 
-            // makeAllRandomToolStripMenuItem
-            // 
-            this.makeAllRandomToolStripMenuItem.Name = "makeAllRandomToolStripMenuItem";
-            this.makeAllRandomToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
-            this.makeAllRandomToolStripMenuItem.Text = "All Random";
-            this.makeAllRandomToolStripMenuItem.Click += new System.EventHandler(this.makeAllRandomToolStripMenuItem_Click);
-            // 
-            // solidColorsToolStripMenuItem
-            // 
-            this.solidColorsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.allLevelsToolStripMenuItem,
-            this.currentLevelToolStripMenuItem});
-            this.solidColorsToolStripMenuItem.Name = "solidColorsToolStripMenuItem";
-            this.solidColorsToolStripMenuItem.Size = new System.Drawing.Size(82, 20);
-            this.solidColorsToolStripMenuItem.Text = "Solid Colors";
-            // 
-            // allLevelsToolStripMenuItem
-            // 
-            this.allLevelsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.redToolStripMenuItem,
-            this.greenToolStripMenuItem,
-            this.blueToolStripMenuItem,
-            this.whiteToolStripMenuItem});
-            this.allLevelsToolStripMenuItem.Name = "allLevelsToolStripMenuItem";
-            this.allLevelsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.allLevelsToolStripMenuItem.Text = "All Levels";
-            // 
-            // redToolStripMenuItem
-            // 
-            this.redToolStripMenuItem.Name = "redToolStripMenuItem";
-            this.redToolStripMenuItem.Size = new System.Drawing.Size(105, 22);
-            this.redToolStripMenuItem.Text = "Red";
-            this.redToolStripMenuItem.Click += new System.EventHandler(this.redToolStripMenuItem_Click);
-            // 
-            // greenToolStripMenuItem
-            // 
-            this.greenToolStripMenuItem.Name = "greenToolStripMenuItem";
-            this.greenToolStripMenuItem.Size = new System.Drawing.Size(105, 22);
-            this.greenToolStripMenuItem.Text = "Green";
-            this.greenToolStripMenuItem.Click += new System.EventHandler(this.greenToolStripMenuItem_Click);
-            // 
-            // blueToolStripMenuItem
-            // 
-            this.blueToolStripMenuItem.Name = "blueToolStripMenuItem";
-            this.blueToolStripMenuItem.Size = new System.Drawing.Size(105, 22);
-            this.blueToolStripMenuItem.Text = "Blue";
-            this.blueToolStripMenuItem.Click += new System.EventHandler(this.blueToolStripMenuItem_Click);
-            // 
-            // whiteToolStripMenuItem
-            // 
-            this.whiteToolStripMenuItem.Name = "whiteToolStripMenuItem";
-            this.whiteToolStripMenuItem.Size = new System.Drawing.Size(105, 22);
-            this.whiteToolStripMenuItem.Text = "White";
-            this.whiteToolStripMenuItem.Click += new System.EventHandler(this.whiteToolStripMenuItem_Click);
-            // 
-            // currentLevelToolStripMenuItem
-            // 
-            this.currentLevelToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.redToolStripMenuItem1,
-            this.greenToolStripMenuItem1,
-            this.blueToolStripMenuItem1,
-            this.whiteToolStripMenuItem1});
-            this.currentLevelToolStripMenuItem.Name = "currentLevelToolStripMenuItem";
-            this.currentLevelToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.currentLevelToolStripMenuItem.Text = "Current Level";
-            // 
-            // redToolStripMenuItem1
-            // 
-            this.redToolStripMenuItem1.Name = "redToolStripMenuItem1";
-            this.redToolStripMenuItem1.Size = new System.Drawing.Size(105, 22);
-            this.redToolStripMenuItem1.Text = "Red";
-            this.redToolStripMenuItem1.Click += new System.EventHandler(this.redToolStripMenuItem1_Click);
-            // 
-            // greenToolStripMenuItem1
-            // 
-            this.greenToolStripMenuItem1.Name = "greenToolStripMenuItem1";
-            this.greenToolStripMenuItem1.Size = new System.Drawing.Size(105, 22);
-            this.greenToolStripMenuItem1.Text = "Green";
-            // 
-            // blueToolStripMenuItem1
-            // 
-            this.blueToolStripMenuItem1.Name = "blueToolStripMenuItem1";
-            this.blueToolStripMenuItem1.Size = new System.Drawing.Size(105, 22);
-            this.blueToolStripMenuItem1.Text = "Blue";
-            // 
-            // whiteToolStripMenuItem1
-            // 
-            this.whiteToolStripMenuItem1.Name = "whiteToolStripMenuItem1";
-            this.whiteToolStripMenuItem1.Size = new System.Drawing.Size(105, 22);
-            this.whiteToolStripMenuItem1.Text = "White";
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(496, 336);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(104, 23);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // levelsToolStripMenuItem
-            // 
-            this.levelsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem3,
-            this.toolStripMenuItem4,
-            this.toolStripMenuItem5,
-            this.toolStripMenuItem6,
-            this.toolStripMenuItem7});
-            this.levelsToolStripMenuItem.Name = "levelsToolStripMenuItem";
-            this.levelsToolStripMenuItem.Size = new System.Drawing.Size(51, 20);
-            this.levelsToolStripMenuItem.Text = "Levels";
-            // 
-            // toolStripMenuItem3
-            // 
-            this.toolStripMenuItem3.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.allToolStripMenuItem,
-            this.rowToolStripMenuItem,
-            this.columnToolStripMenuItem});
-            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(152, 22);
-            this.toolStripMenuItem3.Text = "1";
-            // 
-            // toolStripMenuItem4
-            // 
-            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(152, 22);
-            this.toolStripMenuItem4.Text = "2";
-            // 
-            // toolStripMenuItem5
-            // 
-            this.toolStripMenuItem5.Name = "toolStripMenuItem5";
-            this.toolStripMenuItem5.Size = new System.Drawing.Size(152, 22);
-            this.toolStripMenuItem5.Text = "3";
-            // 
-            // toolStripMenuItem6
-            // 
-            this.toolStripMenuItem6.Name = "toolStripMenuItem6";
-            this.toolStripMenuItem6.Size = new System.Drawing.Size(152, 22);
-            this.toolStripMenuItem6.Text = "4";
-            // 
-            // toolStripMenuItem7
-            // 
-            this.toolStripMenuItem7.Name = "toolStripMenuItem7";
-            this.toolStripMenuItem7.Size = new System.Drawing.Size(152, 22);
-            this.toolStripMenuItem7.Text = "5";
-            // 
-            // allToolStripMenuItem
-            // 
-            this.allToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.redToolStripMenuItem2,
-            this.greenToolStripMenuItem2,
-            this.blueToolStripMenuItem2});
-            this.allToolStripMenuItem.Name = "allToolStripMenuItem";
-            this.allToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.allToolStripMenuItem.Text = "All";
-            // 
-            // rowToolStripMenuItem
-            // 
-            this.rowToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.redToolStripMenuItem3,
-            this.greenToolStripMenuItem3,
-            this.blueToolStripMenuItem3,
-            this.toolStripMenuItem8,
-            this.toolStripMenuItem9});
-            this.rowToolStripMenuItem.Name = "rowToolStripMenuItem";
-            this.rowToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.rowToolStripMenuItem.Text = "Row";
-            // 
-            // columnToolStripMenuItem
-            // 
-            this.columnToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.redToolStripMenuItem4,
-            this.greenToolStripMenuItem4,
-            this.blueToolStripMenuItem4,
-            this.toolStripMenuItem10,
-            this.toolStripMenuItem11});
-            this.columnToolStripMenuItem.Name = "columnToolStripMenuItem";
-            this.columnToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.columnToolStripMenuItem.Text = "Column";
-            // 
-            // redToolStripMenuItem2
-            // 
-            this.redToolStripMenuItem2.Name = "redToolStripMenuItem2";
-            this.redToolStripMenuItem2.Size = new System.Drawing.Size(152, 22);
-            this.redToolStripMenuItem2.Text = "Red";
-            this.redToolStripMenuItem2.Click += new System.EventHandler(this.redToolStripMenuItem2_Click);
-            // 
-            // greenToolStripMenuItem2
-            // 
-            this.greenToolStripMenuItem2.Name = "greenToolStripMenuItem2";
-            this.greenToolStripMenuItem2.Size = new System.Drawing.Size(152, 22);
-            this.greenToolStripMenuItem2.Text = "Green";
-            this.greenToolStripMenuItem2.Click += new System.EventHandler(this.greenToolStripMenuItem2_Click);
-            // 
-            // blueToolStripMenuItem2
-            // 
-            this.blueToolStripMenuItem2.Name = "blueToolStripMenuItem2";
-            this.blueToolStripMenuItem2.Size = new System.Drawing.Size(152, 22);
-            this.blueToolStripMenuItem2.Text = "Blue";
-            this.blueToolStripMenuItem2.Click += new System.EventHandler(this.blueToolStripMenuItem2_Click);
-            // 
-            // redToolStripMenuItem3
-            // 
-            this.redToolStripMenuItem3.Name = "redToolStripMenuItem3";
-            this.redToolStripMenuItem3.Size = new System.Drawing.Size(152, 22);
-            this.redToolStripMenuItem3.Text = "1";
-            this.redToolStripMenuItem3.Click += new System.EventHandler(this.redToolStripMenuItem3_Click);
-            // 
-            // greenToolStripMenuItem3
-            // 
-            this.greenToolStripMenuItem3.Name = "greenToolStripMenuItem3";
-            this.greenToolStripMenuItem3.Size = new System.Drawing.Size(152, 22);
-            this.greenToolStripMenuItem3.Text = "2";
-            // 
-            // blueToolStripMenuItem3
-            // 
-            this.blueToolStripMenuItem3.Name = "blueToolStripMenuItem3";
-            this.blueToolStripMenuItem3.Size = new System.Drawing.Size(152, 22);
-            this.blueToolStripMenuItem3.Text = "3";
-            // 
-            // redToolStripMenuItem4
-            // 
-            this.redToolStripMenuItem4.Name = "redToolStripMenuItem4";
-            this.redToolStripMenuItem4.Size = new System.Drawing.Size(152, 22);
-            this.redToolStripMenuItem4.Text = "1";
-            // 
-            // greenToolStripMenuItem4
-            // 
-            this.greenToolStripMenuItem4.Name = "greenToolStripMenuItem4";
-            this.greenToolStripMenuItem4.Size = new System.Drawing.Size(152, 22);
-            this.greenToolStripMenuItem4.Text = "2";
-            // 
-            // blueToolStripMenuItem4
-            // 
-            this.blueToolStripMenuItem4.Name = "blueToolStripMenuItem4";
-            this.blueToolStripMenuItem4.Size = new System.Drawing.Size(152, 22);
-            this.blueToolStripMenuItem4.Text = "3";
-            // 
-            // toolStripMenuItem8
-            // 
-            this.toolStripMenuItem8.Name = "toolStripMenuItem8";
-            this.toolStripMenuItem8.Size = new System.Drawing.Size(152, 22);
-            this.toolStripMenuItem8.Text = "4";
-            // 
-            // toolStripMenuItem9
-            // 
-            this.toolStripMenuItem9.Name = "toolStripMenuItem9";
-            this.toolStripMenuItem9.Size = new System.Drawing.Size(152, 22);
-            this.toolStripMenuItem9.Text = "5";
-            // 
-            // toolStripMenuItem10
-            // 
-            this.toolStripMenuItem10.Name = "toolStripMenuItem10";
-            this.toolStripMenuItem10.Size = new System.Drawing.Size(152, 22);
-            this.toolStripMenuItem10.Text = "4";
-            // 
-            // toolStripMenuItem11
-            // 
-            this.toolStripMenuItem11.Name = "toolStripMenuItem11";
-            this.toolStripMenuItem11.Size = new System.Drawing.Size(152, 22);
-            this.toolStripMenuItem11.Text = "5";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2251,6 +2376,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
@@ -2429,17 +2555,32 @@
         private System.Windows.Forms.ToolStripMenuItem greenToolStripMenuItem3;
         private System.Windows.Forms.ToolStripMenuItem blueToolStripMenuItem3;
         private System.Windows.Forms.ToolStripMenuItem columnToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem redToolStripMenuItem4;
-        private System.Windows.Forms.ToolStripMenuItem greenToolStripMenuItem4;
-        private System.Windows.Forms.ToolStripMenuItem blueToolStripMenuItem4;
+        private System.Windows.Forms.ToolStripMenuItem L1C1ToolStripMenuItem4;
+        private System.Windows.Forms.ToolStripMenuItem L1C2ToolStripMenuItem4;
+        private System.Windows.Forms.ToolStripMenuItem L1C3ToolStripMenuItem4;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem4;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem5;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem6;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem7;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem8;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem9;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem10;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem11;
+        private System.Windows.Forms.ToolStripMenuItem L1C4ToolStripMenuItem4;
+        private System.Windows.Forms.ToolStripMenuItem L1C5ToolStripMenuItem4;
+        private System.Windows.Forms.ToolStripMenuItem redToolStripMenuItem4;
+        private System.Windows.Forms.ToolStripMenuItem greenToolStripMenuItem4;
+        private System.Windows.Forms.ToolStripMenuItem blueToolStripMenuItem4;
+        private System.Windows.Forms.ToolStripMenuItem redToolStripMenuItem5;
+        private System.Windows.Forms.ToolStripMenuItem greenToolStripMenuItem5;
+        private System.Windows.Forms.ToolStripMenuItem blueToolStripMenuItem5;
+        private System.Windows.Forms.ToolStripMenuItem redToolStripMenuItem6;
+        private System.Windows.Forms.ToolStripMenuItem greenToolStripMenuItem6;
+        private System.Windows.Forms.ToolStripMenuItem blueToolStripMenuItem6;
+        private System.Windows.Forms.ToolStripMenuItem redToolStripMenuItem7;
+        private System.Windows.Forms.ToolStripMenuItem greenToolStripMenuItem7;
+        private System.Windows.Forms.ToolStripMenuItem blueToolStripMenuItem7;
+        private System.Windows.Forms.ToolStripMenuItem redToolStripMenuItem8;
+        private System.Windows.Forms.ToolStripMenuItem greenToolStripMenuItem8;
+        private System.Windows.Forms.ToolStripMenuItem blueToolStripMenuItem8;
     }
 }
 

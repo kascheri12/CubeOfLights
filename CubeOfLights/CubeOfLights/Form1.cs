@@ -881,9 +881,9 @@ namespace CubeOfLights
 
         }
 
-        private void redToolStripMenuItem3_Click(object sender, EventArgs e)
+        private void redToolStripMenuItem4_Click(object sender, EventArgs e)
         {
-            for (var i = 0; i < 5; i++)
+            for (var i = 0; i < 25; i += 5)
             {
                 CustomLEDButton button = ListLEDButtons[i];
                 button.Red = 255;
@@ -892,6 +892,20 @@ namespace CubeOfLights
                 button.BackColor = Color.FromArgb(255, button.Red, button.Green, button.Blue);
             }
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            this.StartPosition = FormStartPosition.Manual;
+            this.Location = new Point(10, 10);
+            Form2 form2 = new Form2();
+
+            form2.Width = this.Width;
+            form2.StartPosition = FormStartPosition.Manual;
+            form2.Location = new Point(this.Location.X, this.Location.Y + this.Height);
+            //form2.StartPosition 
+            form2.Show();
+        }
+
 
 
 
